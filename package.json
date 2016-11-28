@@ -1,7 +1,7 @@
 {
   "name": "angular-basics",
   "version": "1.0.0",
-  "description": "testing node scripts",
+  "description": "testing node scripts and creating",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
