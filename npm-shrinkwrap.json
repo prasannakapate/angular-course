@@ -1,0 +1,11 @@
+{
+  "name": "angular-basics",
+  "version": "1.0.0",
+  "dependencies": {
+    "angular": {
+      "version": "1.5.9",
+      "from": "angular@latest",
+      "resolved": "https://registry.npmjs.org/angular/-/angular-1.5.9.tgz"
+    }
+  }
+}

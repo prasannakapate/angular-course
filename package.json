@@ -4,8 +4,24 @@
   "description": "testing node scripts and creating",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server --inline --progress --colors --watch",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "npm shrinkwrap",
+    "build": "webpack"
   },
   "author": "Suresh Villuri",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.9"
+  },
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "eslint": "^3.11.1",
+    "eslint-loader": "^1.6.1",
+    "express": "^4.14.0",
+    "moment": "^2.17.1",
+    "ng-focus-if": "^1.0.7",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  }
 }
