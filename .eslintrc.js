@@ -1,9 +1,18 @@
 module.exports = {
-    rules: {
+    "env": {
+            "browser": true,
+            "commonjs": true,
+            "es6": true
+        },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "rules": {
         indent: ['error', 4],
         quotes: ['error', 'single'],
         semi: ['error', 'always'],
         "no-console": 'off',
         eqeqeq: 'warn'
-    }
+        }   
 }
