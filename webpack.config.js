@@ -22,13 +22,13 @@ module.exports = {
         ],
         loaders: [
             {
-                test: /\.scss$/,
-                loader: 'resolve-url-loader',
+                test: /\.js$/,
+                loader: 'ng-annotate!babel',
                 exclude: /node_modules/
             },
             {
-                test: /\.js$/,
-                loader: 'babel',
+                test: /\.scss$/,
+                loader: 'style-loader!css-loader!resolve-url-loader!sass-loader',
                 exclude: /node_modules/
             }
         ]

@@ -1,0 +1,15 @@
+<div class="row">
+    <div class="col-xs-12">
+        <h2>Profile info</h2>
+    </div>
+    <div class="col-xs-2">
+        <img src="{{vm.profileData.avatar_url}}" class="img-responsive img-circle profile-img" />
+    </div>
+    <div class="col-xs-10">
+        <p> Followers: {{vm.profileData.followers}}</p>
+        <p>Profile Type: {{vm.profileData.type}}</p>
+        <p><a ng-href="{{vm.profileData.html_url}}"> Profile Link</a></p>
+        <p>Created Date: {{vm.profileData.created_at | date : 'dd-MM-yyyy'}}</p>
+        <p>Updated Date: {{vm.profileData.updated_at | date : 'dd-MM-yyyy'}}</p>
+    </div>
+</div>

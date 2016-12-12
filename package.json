@@ -23,13 +23,18 @@
     "babel-eslint": "^7.1.1",
     "babel-loader": "^6.2.8",
     "babel-preset-es2015": "^6.18.0",
+    "css-loader": "^0.26.1",
     "eslint": "^3.11.1",
     "eslint-loader": "^1.6.1",
     "express": "^4.14.0",
     "html-loader": "^0.4.4",
     "moment": "^2.17.1",
+    "ng-annotate-loader": "^0.2.0",
     "ng-focus-if": "^1.0.7",
+    "node-sass": "^3.13.0",
     "resolve-url-loader": "^1.6.0",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
     "webpack": "^1.13.3",
     "webpack-dev-server": "^1.16.2"
   }
